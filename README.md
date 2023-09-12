@@ -2,7 +2,7 @@
 
 This repo tests the [DataDome Kong module](https://docs.datadome.co/docs/kong-plugin), developed using Lua and [nginx modules directives](https://openresty-reference.readthedocs.io/en/latest/Directives/).
 
-The base of the container is the official [Kong docker image](https://hub.docker.com/_/kong) running on ubuntu jammy.
+The base of the container is the official [Kong docker image](https://hub.docker.com/_/kong) running on alpine.
 
 
 ## 1 -  Configuration
