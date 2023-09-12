@@ -1,0 +1,14 @@
+_format_version: "2.1"
+
+services:
+  - name: my-service-test-dd
+    url: https://example.com/
+    plugins:
+      - name: datadome
+        config:
+          datadome_server_side_key: server_side_key
+          datadome_timeout: 300
+    routes:
+      - name: my-route-test-dd-get-data
+        methods: [GET]
+        paths: [/test-dd]
